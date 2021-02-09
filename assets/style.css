@@ -1,0 +1,83 @@
+header {
+  background-color: #D45649;
+}
+
+.d-grid {
+  display: grid
+}
+
+.noto-serif {
+  font-family: 'Noto Serif', serif;
+}
+
+li {
+  list-style: none;
+}
+
+.text-size-19 {
+  font-size: 19px;
+}
+
+.text-size-18 {
+  font-size: 18px;
+}
+
+.text-size-15 {
+  font-size: 15px;
+}
+
+.text-size-12 {
+  font-size: 12px;
+}
+
+.link-size-19 a {
+  font-size: 19px;
+}
+
+.link-size-22 a {
+  font-size: 22px;
+}
+
+.link-size-24 a {
+  font-size: 24px;
+}
+
+.link-size-16 a {
+  font-size: 16px;
+}
+
+.link-size-14 a {
+  font-size: 14px;
+}
+
+.link-size-17 a {
+  font-size: 17px;
+}
+
+.link-size-18 a {
+  font-size: 18px;
+}
+
+.header-bar {
+  height: 10vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .d-md-grid {
+    display: grid;
+  }
+
+  .header-bar {
+    padding: 1% 0;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .d-lg-grid {
+    display: grid;
+  }
+}
