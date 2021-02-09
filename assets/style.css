@@ -2,6 +2,11 @@ header {
   background-color: #D45649;
 }
 
+h2 {
+  color: red;
+  text-align: center;
+}
+
 .d-grid {
   display: grid
 }
@@ -10,12 +15,25 @@ header {
   font-family: 'Noto Serif', serif;
 }
 
+.roboto {
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.cantarell {
+  font-family: 'Cantarell', sans-serif;
+}
+
+
 li {
   list-style: none;
 }
 
 .text-size-19 {
   font-size: 19px;
+}
+
+.text-size-24 {
+  font-size: 24px;
 }
 
 .text-size-18 {
@@ -62,6 +80,8 @@ li {
   height: 10vh;
 }
 
+
+
 .search {
   background-image: url("../assets/houses.jpg");
   background-size: cover;
@@ -70,7 +90,7 @@ li {
 }
 
 .search-square {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(179, 179, 179, 0.5);
   border-radius: 10px;
   max-width: 800px;
   justify-self: center;
@@ -85,7 +105,33 @@ li {
   border-radius: 4px;
 }
 
+.steps-grid {
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1000px;
+  gap: 10px;
+  column-gap: 100px;
+}
 
+.bar1 {
+  grid-template-columns: 2fr 1fr;
+  background-color: #E27F66;
+}
+
+.bar2 {
+  grid-template-columns: 2fr 1fr;
+  background-color: #98A4A5;
+}
+
+.bar3 {
+  grid-template-columns: 2fr 1fr;
+  background-color: #519CD8;
+}
+
+.round-image {
+  border-radius: 50%;
+  max-height: 300px;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -93,8 +139,17 @@ li {
     display: grid;
   }
 
+  .search {
+    height: 150vh;
+  }
+
   .header-bar {
     padding: 1% 0;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+    margin: 0;
   }
 
 }
