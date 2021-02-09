@@ -62,6 +62,30 @@ li {
   height: 10vh;
 }
 
+.search {
+  background-image: url("../assets/houses.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+}
+
+.search-square {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  max-width: 800px;
+  justify-self: center;
+}
+
+.search-btn {
+  background-color: #D45649;
+  border: none;
+}
+
+.hiw-button {
+  border-radius: 4px;
+}
+
+
 
 @media only screen and (max-width: 768px) {
 
