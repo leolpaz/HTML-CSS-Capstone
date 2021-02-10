@@ -139,6 +139,10 @@ li {
   max-height: 300px;
 }
 
+.left-5 {
+  margin-left: 5%;
+}
+
 .size-image {
   max-height: 300px;
 }
@@ -164,6 +168,14 @@ li {
   .steps-grid {
     grid-template-columns: 1fr;
     margin: 0;
+  }
+
+  .round-image {
+    max-height: calc(33vw);
+  }
+
+  .size-image {
+    max-height: calc(33vw);
   }
 
 }
