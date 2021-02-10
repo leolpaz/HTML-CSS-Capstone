@@ -36,6 +36,10 @@ li {
   font-size: 24px;
 }
 
+.text-size-36 {
+  font-size: 36px;
+}
+
 .text-size-18 {
   font-size: 18px;
 }
@@ -232,10 +236,18 @@ h1 {
   border-radius: 4px;
 }
 
+.search-grid {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
 
-
-
-
+.size-image-search {
+  max-height: 326px;
+  max-width: 326px;
+}
 
 
 @media only screen and (max-width: 1024px) {
