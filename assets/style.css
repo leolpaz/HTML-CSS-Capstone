@@ -255,7 +255,6 @@ h1 {
 .info-grid {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  gap: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -265,7 +264,8 @@ h1 {
 }
 
 .box-info {
-  height: 10vh;
+  height: 20vh;
+  border: 1px solid rgb(102, 99, 99);
 }
 
 .apply-button {
@@ -297,6 +297,10 @@ h1 {
 @media only screen and (max-width: 768px) {
   .d-md-grid {
     display: grid;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
   }
 
   .search {
