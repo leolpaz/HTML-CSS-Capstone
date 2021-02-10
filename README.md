@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Using bootstrap
+# HTML-CSS capstone
 
-> In this project I made a functioning website, based on an online option to rent and buy houses
+> In this project I made a functioning website, based on an house repository to buy and rent houses.
 
 ![screenshot](https://github.com/leolpaz/html-css-capstone/blob/features/app_screenshot.png)
 
