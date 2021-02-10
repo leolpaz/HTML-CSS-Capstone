@@ -77,7 +77,7 @@ li {
 }
 
 .header-bar {
-  height: 15vh;
+  height: 10vh;
 }
 
 .btn1 {
@@ -151,6 +151,67 @@ li {
   height: 70px;
 }
 
+footer {
+  background-color: black;
+}
+
+.list-item {
+  padding: 1vw 3vw;
+  border-top: 2px solid #444444;
+  border-bottom: 2px solid #444444;
+  cursor: pointer;
+}
+
+.list-item-special {
+  font-size: 36px;
+  margin: 2% 0;
+  padding: 1%;
+  border-radius: 50% 50%;
+  border: 2px solid #444444;
+  cursor: pointer;
+}
+
+.subscribe-input {
+  background-color: #000;
+  border: 2px solid #1C1C1C;
+  width: 80%;
+  color: #444444;
+}
+
+.subscribe-send {
+  background-color: #444444;
+  border: none;
+  width: 30%;
+}
+
+.red-text {
+  color: #C04C40;
+}
+
+.middle-footer {
+  margin-right: 0;
+}
+
+.fb:hover {
+  color: #3b5998;
+}
+
+.gg:hover {
+  color: red;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  color: #405de6;
+}
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 
   .d-md-grid {
@@ -171,11 +232,15 @@ li {
   }
 
   .round-image {
-    max-height: calc(33vw);
+    max-height: 33vw;
   }
 
   .size-image {
-    max-height: calc(33vw);
+    max-height: 33vw;
+  }
+
+  .header-bar {
+    height: 15vh;
   }
 
 }
@@ -184,5 +249,11 @@ li {
   
   .d-lg-grid {
     display: grid;
+  }
+
+  .list-item {
+    padding: 1vw 3vw;
+    border: none;
+    cursor: pointer;
   }
 }
