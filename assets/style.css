@@ -77,10 +77,16 @@ li {
 }
 
 .header-bar {
-  height: 10vh;
+  height: 15vh;
 }
 
+.btn1 {
+  color: #E27F66;
+}
 
+.btn2 {
+  color: #98A4A5;
+}
 
 .search {
   background-image: url("../assets/houses.jpg");
@@ -131,6 +137,14 @@ li {
 .round-image {
   border-radius: 50%;
   max-height: 300px;
+}
+
+.size-image {
+  max-height: 300px;
+}
+
+.button-container {
+  height: 70px;
 }
 
 @media only screen and (max-width: 768px) {
