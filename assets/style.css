@@ -155,15 +155,21 @@ footer {
   background-color: black;
 }
 
-.list-item {
-  padding: 1vw 3vw;
+.ul-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
   border-top: 2px solid #444444;
   border-bottom: 2px solid #444444;
+  padding: 0 50px;
+}
+
+.list-item {
+  padding: 1vw 0;
   cursor: pointer;
 }
 
 .list-item-special {
-  font-size: 36px;
+  font-size: 34px;
   margin: 2% 0;
   padding: 1%;
   border-radius: 50% 50%;
@@ -208,9 +214,50 @@ footer {
   color: #405de6;
 }
 
+h1 {
+  color: #8E8E92;
+}
+
+.blue-button {
+  height: 27px;
+  background-color: #457EB4;
+  border: none;
+  border-radius: 4px;
+}
+
+.yellow-button {
+  height: 27px;
+  background-color: #E5AB5B;
+  border: none;
+  border-radius: 4px;
+}
 
 
 
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  
+  .d-lg-grid {
+    display: grid;
+  }
+
+  .list-item {
+    padding: 1vw 3vw;
+    border: none;
+    cursor: pointer;
+  }
+
+  .ul-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: none;
+    gap: 20px;
+    padding: 0 50px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -243,17 +290,12 @@ footer {
     height: 15vh;
   }
 
-}
-
-@media only screen and (max-width: 1024px) {
-  
-  .d-lg-grid {
-    display: grid;
-  }
-
-  .list-item {
-    padding: 1vw 3vw;
+  .ul-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     border: none;
-    cursor: pointer;
+    gap: 20px;
+    padding: 0 50px;
   }
+
 }
