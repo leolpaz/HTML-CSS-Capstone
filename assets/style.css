@@ -1,5 +1,5 @@
 header {
-  background-color: #D45649;
+  background-color: #d45649;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
 }
 
 .d-grid {
-  display: grid
+  display: grid;
 }
 
 .noto-serif {
@@ -26,7 +26,6 @@ h2 {
 .cantarell {
   font-family: 'Cantarell', sans-serif;
 }
-
 
 li {
   list-style: none;
@@ -89,11 +88,11 @@ li {
 }
 
 .btn1 {
-  color: #E27F66;
+  color: #e27f66;
 }
 
 .btn2 {
-  color: #98A4A5;
+  color: #98a4a5;
 }
 
 .search {
@@ -111,7 +110,7 @@ li {
 }
 
 .search-btn {
-  background-color: #D45649;
+  background-color: #d45649;
   border: none;
 }
 
@@ -129,17 +128,17 @@ li {
 
 .bar1 {
   grid-template-columns: 2fr 1fr;
-  background-color: #E27F66;
+  background-color: #e27f66;
 }
 
 .bar2 {
   grid-template-columns: 2fr 1fr;
-  background-color: #98A4A5;
+  background-color: #98a4a5;
 }
 
 .bar3 {
   grid-template-columns: 2fr 1fr;
-  background-color: #519CD8;
+  background-color: #519cd8;
 }
 
 .round-image {
@@ -166,8 +165,8 @@ footer {
 .ul-grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 50px;
-  border-top: 2px solid #444444;
-  border-bottom: 2px solid #444444;
+  border-top: 2px solid #444;
+  border-bottom: 2px solid #444;
   padding: 0 50px;
 }
 
@@ -181,25 +180,25 @@ footer {
   margin: 2% 0;
   padding: 1%;
   border-radius: 50% 50%;
-  border: 2px solid #444444;
+  border: 2px solid #444;
   cursor: pointer;
 }
 
 .subscribe-input {
   background-color: #000;
-  border: 2px solid #1C1C1C;
+  border: 2px solid #1c1c1c;
   width: 80%;
-  color: #444444;
+  color: #444;
 }
 
 .subscribe-send {
-  background-color: #444444;
+  background-color: #444;
   border: none;
   width: 30%;
 }
 
 .red-text {
-  color: #C04C40;
+  color: #c04c40;
 }
 
 .middle-footer {
@@ -223,19 +222,19 @@ footer {
 }
 
 h1 {
-  color: #8E8E92;
+  color: #8e8e92;
 }
 
 .blue-button {
   height: 27px;
-  background-color: #457EB4;
+  background-color: #457eb4;
   border: none;
   border-radius: 4px;
 }
 
 .yellow-button {
   height: 27px;
-  background-color: #E5AB5B;
+  background-color: #e5ab5b;
   border: none;
   border-radius: 4px;
 }
@@ -262,22 +261,20 @@ h1 {
 }
 
 .blue-letters {
-  color: #9FC9E9;
+  color: #9fc9e9;
 }
 
 .box-info {
-  height: 10vh
+  height: 10vh;
 }
 
 .apply-button {
   border: none;
-  background-color: #509BD7;
+  background-color: #509bd7;
   height: 40px;
 }
 
-
 @media only screen and (max-width: 1024px) {
-  
   .d-lg-grid {
     display: grid;
   }
@@ -298,7 +295,6 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-
   .d-md-grid {
     display: grid;
   }
@@ -309,6 +305,7 @@ h1 {
 
   .header-bar {
     padding: 1% 0;
+    height: 15vh;
   }
 
   .steps-grid {
@@ -324,10 +321,6 @@ h1 {
     max-height: 33vw;
   }
 
-  .header-bar {
-    height: 15vh;
-  }
-
   .ul-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -335,5 +328,4 @@ h1 {
     gap: 20px;
     padding: 0 50px;
   }
-
 }
