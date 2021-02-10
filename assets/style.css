@@ -7,6 +7,10 @@ h2 {
   text-align: center;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .d-grid {
   display: grid
 }
@@ -247,6 +251,28 @@ h1 {
 .size-image-search {
   max-height: 326px;
   max-width: 326px;
+}
+
+.info-grid {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-letters {
+  color: #9FC9E9;
+}
+
+.box-info {
+  height: 10vh
+}
+
+.apply-button {
+  border: none;
+  background-color: #509BD7;
+  height: 40px;
 }
 
 
