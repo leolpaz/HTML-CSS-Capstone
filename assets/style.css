@@ -349,9 +349,7 @@ h1 {
 }
 
 @media only screen and (max-width: 250px) {
-
   .list-item {
     display: none;
   }
-
 }
