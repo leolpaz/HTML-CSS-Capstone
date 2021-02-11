@@ -315,6 +315,7 @@ h1 {
   .header-bar {
     padding: 1% 0;
     height: 15vh;
+    max-height: 55px;
   }
 
   .steps-grid {
