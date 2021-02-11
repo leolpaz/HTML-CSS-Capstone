@@ -2,6 +2,10 @@ header {
   background-color: #d45649;
 }
 
+body {
+  width: 100%;
+}
+
 h2 {
   color: red;
   text-align: center;
@@ -168,6 +172,7 @@ footer {
   border-top: 2px solid #444;
   border-bottom: 2px solid #444;
   padding: 0 50px;
+  overflow: hidden;
 }
 
 .list-item {
