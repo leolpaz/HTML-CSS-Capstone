@@ -93,10 +93,12 @@ li {
 
 .btn1 {
   color: #e27f66;
+  border: none
 }
 
 .btn2 {
   color: #98a4a5;
+  border: none
 }
 
 .search {
@@ -120,6 +122,7 @@ li {
 
 .hiw-button {
   border-radius: 4px;
+  border: none;
 }
 
 .steps-grid {
