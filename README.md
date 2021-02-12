@@ -20,6 +20,22 @@ I made a project based on this design https://www.behance.net/gallery/25563385/P
 - CSS
 - Bootstrap
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+  Visual Studio Code or a similar software with live server capabilities
+
+### Setup
+
+  Fork this repository and clone it on a local folder
+
+### Usage
+
+  Open the index.html on the live server, add the remaining html files if they're not added automatically
+
 ## Authors
 
 👤 **Leonardo L. da Paz**
