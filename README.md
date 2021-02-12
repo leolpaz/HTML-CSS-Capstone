@@ -33,6 +33,7 @@ I made a project based on this design https://www.behance.net/gallery/25563385/P
 - [Microverse](https://www.microverse.org)
 - [w3schools](https://www.w3schools.com)
 - Our standup team
+- [PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE) owned by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam) also credits to [Kevin Mutua](https://www.behance.net/kevinmutua)
 
 ## License
   <p>This project is <a href="LICENSE">MIT</a> licensed.</p>
