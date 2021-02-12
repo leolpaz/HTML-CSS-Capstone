@@ -231,8 +231,12 @@ footer {
   color: #405de6;
 }
 
-h1 {
+.gray-text {
   color: #8e8e92;
+}
+
+.no-style:hover {
+  text-decoration: none;
 }
 
 .blue-button {
