@@ -284,7 +284,6 @@ h1 {
   height: 40px;
 }
 
-
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .list-item {
     padding: 1vw 3vw;
@@ -299,8 +298,6 @@ h1 {
   }
 }
 
-
-
 @media only screen and (min-width: 1024px) {
   .info-grid {
     grid-template-columns: 1fr 1fr;
@@ -309,7 +306,7 @@ h1 {
   .header-bar {
     height: 10vh;
     max-height: none;
-    padding: none;
+    padding: 0;
   }
 
   .steps-grid {
@@ -338,6 +335,3 @@ h1 {
     font-size: 16px;
   }
 }
-
-
-
