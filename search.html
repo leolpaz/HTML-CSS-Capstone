@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Houser</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Marck+Script&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2350416dc3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div
+      class="noto-serif d-flex header-bar flex-column flex-md-row justify-content-between px-4 text-white align-items-center header-bar">
+      <a class="nav-logo text-white no-style" href="index.html">
+        <i class="fas fa-home"></i>
+        HOUSER
+      </a>
+      <nav class="d-flex nav-links">
+        <a href="search.html" class="text-white no-style d-flex mx-2"><i class="mr-2 fas fa-search"></i> <span class="d-none d-lg-block">HOUSES</span></a>
+        <a href="#" class="text-white no-style d-flex mx-2"><i class="mr-2 fas fa-user"></i> <span class="d-none d-lg-block">ABOUT</span></a>
+        <a href="#" class="text-white no-style d-flex mx-2"><i class="mr-2 fas fa-rss"></i> <span class="d-none d-lg-block">BLOG</span></a>
+        <a href="#" class="text-white no-style d-flex mx-2"><i class="mr-2 fas fa-bars"></i> <span class="d-none d-lg-block">MORE</span></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="my-5 mx-5 py-5 search-houses roboto">
+      <h1 class="gray-text text-center text-size-24 font-weight-bolder">Filter by state, city, zip code, type</h1>
+      <div class="pt-3 d-block d-lg-flex font-weight-bold justify-content-center">
+        <div class="d-flex flex-column select-city mt-2 mx-2">
+          <h3 class="pb-2">Select State</h3>
+          <select class="text-size-17">
+            <option value="0">Select</option>
+            <option value="1">São Paulo</option>
+            <option value="2">Rio De Janeiro</option>
+            <option value="3">Minas Gerais</option>
+          </select>
+        </div>
+        <div class="d-flex flex-column select-city mt-2 mx-2">
+          <h3 class="pb-2">Select City</h3>
+          <select class="text-size-17">
+            <option value="0">Select</option>
+            <option value="1">São Paulo</option>
+            <option value="2">Rio De Janeiro</option>
+            <option value="3">Belo Horizonte</option>
+          </select>
+        </div>
+        <div class="d-flex flex-column select-city mt-2 mx-2">
+          <h3 class="pb-2">Select Type</h3>
+          <select class="text-size-17">
+            <option value="0">Select</option>
+            <option value="1">House</option>
+            <option value="2">Apartment</option>
+          </select>
+        </div>
+        <div class="d-flex flex-column select-city mt-2 mx-2">
+          <h3 class="pb-2">Price range</h3>
+          <select class="text-size-17">
+            <option value="0">Select</option>
+            <option value="1">less than R$1000</option>
+            <option value="2">R$1000 - R$3000</option>
+            <option value="3">more than R$3000 </option>
+          </select>
+        </div>
+        <div class="input-search mt-2 mx-2">
+          <h3 class="pb-2">Zip Code</h3>
+          <input class="w-100" type="text">
+        </div>
+        <div class="d-flex flex-wrap justify-content-center search-buttons align-items-end pt-2">
+          <button type="submit" class="blue-button text-white mt-1 mx-1">Search</button>
+          <button type="submit" class="yellow-button text-white mt-1 mx-1"><i class="far fa-edit"></i> Clear filter</button>
+        </div>
+      </div>
+    </section>
+    <section class="my-5 mx-5 py-5 search-results">
+      <h2 class="text-center font-weight-bold text-size-36">Search Results Found 7 House(s)</h2>
+      <div class="d-grid search-grid my-5">
+        <a class="size-image-search" href="details.html"><img class="img-fluid" src="assets/demo1.png" alt=""></a>
+        <a class="size-image-search" href="details.html"><img class="img-fluid" src="assets/demo2.png" alt=""></a>
+        <a class="size-image-search" href="details.html"><img class="img-fluid" src="assets/demo3.png" alt=""></a>
+        <a class="size-image-search" href="details.html"><img class="img-fluid" src="assets/demo1.png" alt=""></a>
+        <a class="size-image-search" href="details.html"><img class="img-fluid" src="assets/demo2.png" alt=""></a>
+        <a class="size-image-search" href="details.html"><img class="img-fluid" src="assets/demo3.png" alt=""></a>
+        <a class="size-image-search" href="details.html"><img class="img-fluid" src="assets/demo1.png" alt=""></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="top-footer py-3 d-flex justify-content-center align-items-center mb-2 roboto">
+      <ul class="d-grid ul-grid justify-content-center text-white roboto">
+        <li class="list-item"><a class="text-white no-style" href="index.html">HOME</a></li>
+        <li class="list-item"><a class="text-white no-style" href="search.html">SEARCH</a></li>
+        <li class="list-item"><a class="text-white no-style" href="#">ABOUT</a></li>
+        <li class="list-item"><a class="text-white no-style" href="#">ADVERTISE</a></li>
+      </ul>
+      <div class="list-item-special"><a href="index.html"><i class="fas fa-home"></i></a></div>
+      <ul class="d-grid ul-grid justify-content-center text-white roboto">
+        <li class="list-item"><a class="text-white no-style" href="#">FACEBOOK</a></li>
+        <li class="list-item"><a class="text-white no-style" href="#">TWITTER</a></li>
+        <li class="list-item"><a class="text-white no-style" href="#">BLOG</a></li>
+        <li class="list-item"><a class="text-white no-style" href="#">GOOGLE+</a></li>
+      </ul>
+    </div>
+    <div class="middle-footer left-5 d-flex row">
+      <div class="subscribe d-flex flex-column pb-4 pt-4 col-12 col-md-4">
+        <h3 class="text-white text-size-24 mb-5 text-center">SUBSCRIBE</h3>
+        <div class="d-flex">
+          <input placeholder="you@example.com" type="text" class="pl-2 subscribe-input">
+          <button type="submit" class="text-white subscribe-send">send</button>
+        </div>
+      </div>
+      <div class="subscribe d-flex flex-column pb-4 pt-4 col-12 col-md-4 text-center">
+        <h3 class="text-white text-size-24 mb-5 text-center">CONTACT</h3>
+        <div class="text-center text-white text-size-15">Have a question or suggestion? <br> <span class="red-text">info@houser.com</span></div>
+      </div> 
+      <div class="subscribe d-flex flex-column pb-4 pt-4 col-12 col-md-4 text-center">
+        <h3 class="text-white text-size-24 mb-5 text-center">ABOUT</h3>
+        <div class="text-center text-white text-size-15">Houser is an online platform to assist you in finding houses that you might be interested in, quick and easy, no need of calling or going to a realtor to look at possible houses for hours. <br> <span class="red-text">Learn more...</span></div>
+      </div> 
+    </div>
+    <div class="bottom-footer d-flex justify-content-center pt-4 pb-4">
+      <div class="px-3 text-size-24 fb"><i class="fab fa-facebook"></i></div>
+      <div class="px-3 text-size-24 twitter"><i class="fab fa-twitter"></i></div>
+      <div class="px-3 text-size-24 gg"><i class="fab fa-google-plus-g"></i></div>
+      <div class="px-3 text-size-24 instagram"><i class="fab fa-instagram"></i></div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+</script>
+</body>
