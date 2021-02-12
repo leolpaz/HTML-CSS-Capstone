@@ -6,9 +6,8 @@ body {
   width: 100%;
 }
 
-h2 {
+.text-red {
   color: red;
-  text-align: center;
 }
 
 .cursor-pointer {
@@ -286,6 +285,10 @@ footer {
   border: none;
   background-color: #509bd7;
   height: 40px;
+}
+
+.map-img {
+  max-height: 600px;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
