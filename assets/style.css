@@ -134,6 +134,10 @@ li {
   column-gap: 100px;
 }
 
+.p-box {
+  max-width: 505px;
+}
+
 .bar1 {
   grid-template-columns: 2fr 1fr;
   background-color: #e27f66;
